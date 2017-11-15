@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Github/Qwiic_Distance_Sensor/Hardware/RFD77402_ToF_Sensor.sch</source>
+    <date>11/14/2017 11:42:09 AM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ZOPT220x UV Sensor Breakout.sch</title>
+        <company/>
+        <rev/>
+        <date>22 MAR 2017</date>
+        <source>RFD77402_ToF_Sensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>SPARKX-LOGO4</value>
+      <footprint>SparkX:SPARKX-MEDIUM</footprint>
+      <libsource lib="SparkX" part="SPARKX_SPARKX-LOGO4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D2A8F5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SPARKX-LOGO4</value>
+      <footprint>SparkX:SPARKX-MEDIUM</footprint>
+      <libsource lib="SparkX" part="SPARKX_SPARKX-LOGO4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D2A9BD</tstamp>
+    </comp>
+    <comp ref="MK1">
+      <value>Mounting_Hole</value>
+      <footprint>SparkFun-Hardware:STAND-OFF</footprint>
+      <libsource lib="SparkX" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59075789</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER-SMT_3_2-NC_PASTE_SILK</value>
+      <footprint>SparkFun-Jumpers:SMT-JUMPER_3_2-NC_PASTE_SILK</footprint>
+      <libsource lib="SparkX" part="JUMPER-SMT_3_2-NC_PASTE_SILK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59082286</tstamp>
+    </comp>
+    <comp ref="MK2">
+      <value>Mounting_Hole</value>
+      <footprint>SparkFun-Hardware:STAND-OFF</footprint>
+      <libsource lib="SparkX" part="Mounting_Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59084A42</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>SPARKFUN-AESTHETICS_OSHW-LOGOS</value>
+      <footprint>SparkFun-Aesthetics:OSHW-LOGO-MINI</footprint>
+      <libsource lib="RFD77402_ToF_Sensor-cache" part="SPARKFUN-AESTHETICS_OSHW-LOGOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59090398</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>CC_LICENSE</value>
+      <footprint>SparkFun-Aesthetics:CREATIVE_COMMONS</footprint>
+      <libsource lib="SparkX" part="CC_LICENSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5909150A</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>Fiducial</value>
+      <footprint>SparkFun-KiCad-Aesthetics:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkX" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59092D95</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fiducial</value>
+      <footprint>SparkFun-KiCad-Aesthetics:FIDUCIAL-1X2</footprint>
+      <libsource lib="SparkX" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59092EBB</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>I2C_STANDARD</value>
+      <footprint>1X04</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="I2C_STANDARD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B2D46</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01</value>
+      <footprint>1X01</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="CONN_01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B3116</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7UF0603</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="Field4">CAP-08280</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="4.7UF0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B3332</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1UF-0603-25V-_+80_-20%_</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="Field4">CAP-00810</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0603-25V-_+80_-20%_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B3380</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7KOHM-0603-1_10W-1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="Field4">RES-07857</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="4.7KOHM-0603-1_10W-1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B36DD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7KOHM-0603-1_10W-1%</value>
+      <footprint>0603</footprint>
+      <fields>
+        <field name="Field4">RES-07857</field>
+      </fields>
+      <libsource lib="SparkFun-Resistors" part="4.7KOHM-0603-1_10W-1%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B3756</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>RFD77402</value>
+      <footprint>Silicon-Custom:RFD77402</footprint>
+      <fields>
+        <field name="Field4">IC-13870</field>
+      </fields>
+      <libsource lib="SparkFun-IC-Special-Function" part="RFD77402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B4F78</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>QWIIC_CONNECTORJS-1MM</value>
+      <footprint>1X04_1MM_RA</footprint>
+      <fields>
+        <field name="Field4">CONN-13694</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="QWIIC_CONNECTORJS-1MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B5101</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>QWIIC_CONNECTORJS-1MM</value>
+      <footprint>1X04_1MM_RA</footprint>
+      <fields>
+        <field name="Field4">CONN-13694</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="QWIIC_CONNECTORJS-1MM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0B5168</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SparkFun-Capacitors" part="0.1UF-0603-25V-_+80_-20%_">
+      <description>0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field. </description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1UF-0603-25V-_+80_-20%_</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">CAP-00810</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Resistors" part="4.7KOHM-0603-1_10W-1%">
+      <description>4.7k  resistor A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia </description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">4.7KOHM-0603-1_10W-1%</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">RES-07857</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="4.7UF0603">
+      <description>4.7uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field. </description>
+      <footprints>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4.7UF0603</field>
+        <field name="Footprint">0603</field>
+        <field name="Field4">CAP-08280</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkX" part="CC_LICENSE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC_LICENSE</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="CONN_01">
+      <description>Single connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections   On any of the 0.1 inch spaced packages, you can populate with these:&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt; &lt;/ul&gt; This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11375"&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11367"&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/categories/141"&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt;  SMTSO-256-ET is a "flush mount" nut for a 4-40 screw. We mostly use this on specialty testbeds; it is a nice way to connect hardware to your PCB at an adjustable hieght. Also note, the SNAP packages are for using a snappable style connector. We sell a baggie of snaps and they are also used on two LilyPad designs:&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11347"&gt; Snap Assortment - 30 pack (male and female)&lt;/a&gt; (DEV-11347)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10941"&gt;LilyPad Arduino SimpleSnap&lt;/a&gt; (DEV-10941)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10940"&gt; LilyPad SimpleSnap Protoboard&lt;/a&gt; (DEV-10940)&lt;/li&gt; &lt;/ul&gt;</description>
+      <footprints>
+        <fp>*1X01*</fp>
+        <fp>*1X01_OFFSET*</fp>
+        <fp>*1X01_POGOPIN_HOLE_0.58_DIA*</fp>
+        <fp>*1X01_POGOPIN_HOLE_0.061_DIA*</fp>
+        <fp>*1X01_2MM*</fp>
+        <fp>*1X01_LONGPAD*</fp>
+        <fp>*1X01NS_KIT*</fp>
+        <fp>*1X01_NO_SILK*</fp>
+        <fp>*SNAP-FEMALE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01</field>
+        <field name="Footprint">1X01</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkX" part="Fiducial">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="I2C_STANDARD">
+      <description>SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Pinout Header SparkFun has standardized on a pinout for all I&lt;sup&gt;2&lt;/sup&gt;C based sensor breakouts.&lt;br&gt;&lt;br&gt;This pinout allows I&lt;sup&gt;2&lt;/sup&gt;C boards to be plugged directly into the headers on Arduino Uno compatible boards, andto be daisy chained easily. &lt;b&gt;Example SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13676"&gt;SparkFun Atmospheric Sensor Breakout - BME280&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11084 &gt;SparkFun Altitude/Pressure Sensor Breakout - MPL3115A2&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12785 &gt;SparkFun TOF Range Finder Sensor - VL6180&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt; </description>
+      <footprints>
+        <fp>*1X04*</fp>
+        <fp>*1X04_1MM_RA*</fp>
+        <fp>*1X04_NO_SILK*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">I2C_STANDARD</field>
+        <field name="Footprint">1X04</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkX" part="JUMPER-SMT_3_2-NC_PASTE_SILK">
+      <footprints>
+        <fp>SparkFun_*SMT-JUMPER_3_2-NC_PASTE_SILK*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER-SMT_3_2-NC_PASTE_SILK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkX" part="Mounting_Hole">
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="QWIIC_CONNECTORJS-1MM">
+      <description>SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href= http://www.sparkfun.com/qwiic &gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.&lt;br&gt;&lt;br&gt;We carry &lt;a href= https://www.sparkfun.com/products/14204 &gt;200mm&lt;/a&gt;, &lt;a href= https://www.sparkfun.com/products/14205 &gt;100mm&lt;/a&gt;, &lt;a href= https://www.sparkfun.com/products/14206 &gt;50mm&lt;/a&gt;, and &lt;a href= https://www.sparkfun.com/products/14207 &gt;breadboard friendly&lt;/a&gt; Qwiic cables. We also offer &lt;a href= https://www.sparkfun.com/products/14323 &gt;10 pcs strips&lt;/a&gt; the SMD connectors.</description>
+      <footprints>
+        <fp>*1X04_1MM_RA*</fp>
+        <fp>*1X04_1MM_RA_STRESSRELIEF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">QWIIC_CONNECTORJS-1MM</field>
+        <field name="Footprint">1X04_1MM_RA</field>
+        <field name="Field4">CONN-13694</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-IC-Special-Function" part="RFD77402">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFD77402</field>
+        <field name="Footprint">Silicon-Custom:RFD77402</field>
+        <field name="Field4">IC-13870</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INT" type="BiDi"/>
+        <pin num="5" name="SCL" type="BiDi"/>
+        <pin num="6" name="SDA" type="BiDi"/>
+        <pin num="8" name="VDD1" type="BiDi"/>
+        <pin num="9" name="GND" type="BiDi"/>
+        <pin num="10" name="VDD2" type="input"/>
+        <pin num="12" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="RFD77402_ToF_Sensor-cache" part="SPARKFUN-AESTHETICS_OSHW-LOGOS">
+      <footprints>
+        <fp>*SPARKFUN-AESTHETICS_OSHW-LOGO-S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">SPARKFUN-AESTHETICS_OSHW-LOGOS</field>
+        <field name="Footprint">SPARKFUN-AESTHETICS_OSHW-LOGO-S</field>
+      </fields>
+    </libpart>
+    <libpart lib="SparkX" part="SPARKX_SPARKX-LOGO4">
+      <footprints>
+        <fp>*SPARKX_SPARKX-MEDIUM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">SPARKX_SPARKX-LOGO4</field>
+        <field name="Footprint">SPARKX_SPARKX-MEDIUM</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SparkFun-Connectors">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="SparkFun-Capacitors">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="SparkFun-Resistors">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Resistors.lib</uri>
+    </library>
+    <library logical="SparkX">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\SparkX\NewlyCreated\SparkX.lib</uri>
+    </library>
+    <library logical="RFD77402_ToF_Sensor-cache">
+      <uri>C:\Github\Qwiic_Distance_Sensor\Hardware\RFD77402_ToF_Sensor-cache.lib</uri>
+    </library>
+    <library logical="SparkFun-IC-Special-Function">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-IC-Special-Function.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="J4" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(JP1-Pad3)">
+      <node ref="R1" pin="1"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="5" name="SCL">
+      <node ref="J2" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="6" name="~INT">
+      <node ref="U1" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="7" name="SDA">
+      <node ref="J4" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>

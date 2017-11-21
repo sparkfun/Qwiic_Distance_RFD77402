@@ -58,73 +58,7 @@ $EndDescr
 Text Notes 9000 7600 0    100  ~ 0
 N. Seidle
 Text Notes 9900 7850 0    50   ~ 0
-X10
-Wire Wire Line
-	5050 2800 4950 2800
-Wire Wire Line
-	4950 2700 4950 2900
-Wire Wire Line
-	4450 2650 4450 2800
-Wire Wire Line
-	4650 4300 4650 4000
-Wire Wire Line
-	5600 4300 5850 4300
-Wire Wire Line
-	5850 4300 5850 4000
-Wire Wire Line
-	4300 5250 4650 5250
-Wire Wire Line
-	4650 5250 4650 4950
-Wire Wire Line
-	5050 3100 4950 3100
-Wire Wire Line
-	4950 3000 4950 3200
-Wire Wire Line
-	4450 3100 4450 3200
-Wire Wire Line
-	4250 4400 4650 4400
-Wire Wire Line
-	4650 4400 4650 4500
-Wire Wire Line
-	5600 4400 5850 4400
-Wire Wire Line
-	5850 4400 5850 4500
-Wire Wire Line
-	4300 5350 4650 5350
-Wire Wire Line
-	4650 5350 4650 5450
-Wire Wire Line
-	6450 2250 6450 2300
-Wire Wire Line
-	6450 2250 6350 2250
-Wire Wire Line
-	5950 2250 5950 2300
-Wire Wire Line
-	5950 2250 6050 2250
-Wire Wire Line
-	5850 2800 6650 2800
-Wire Wire Line
-	5950 2700 5950 2800
-Connection ~ 5950 2800
-Wire Wire Line
-	4250 4100 4350 4100
-Wire Wire Line
-	5600 4100 5650 4100
-Wire Wire Line
-	4300 5050 4450 5050
-Wire Wire Line
-	5850 2900 6650 2900
-Wire Wire Line
-	6450 2700 6450 2900
-Connection ~ 6450 2900
-Wire Wire Line
-	4250 4200 4350 4200
-Wire Wire Line
-	5600 4200 5650 4200
-Wire Wire Line
-	4300 5150 4450 5150
-Wire Wire Line
-	5700 5100 5900 5100
+v01
 Text GLabel 5950 3100 2    39   Input ~ 0
 ~INT
 Text GLabel 6650 2900 2    39   Input ~ 0
@@ -148,12 +82,12 @@ SDA
 $Comp
 L Mounting_Hole MK1
 U 1 1 59075789
-P 9800 6950
-F 0 "MK1" H 9800 7150 50  0000 C CNN
-F 1 "Mounting_Hole" H 9800 7075 50  0000 C CNN
-F 2 "SparkFun-Hardware:STAND-OFF" H 9800 6950 50  0001 C CNN
-F 3 "" H 9800 6950 50  0001 C CNN
-	1    9800 6950
+P 9600 6950
+F 0 "MK1" H 9600 7150 50  0000 C CNN
+F 1 "Mounting_Hole" H 9600 7075 50  0000 C CNN
+F 2 "SparkFun-Hardware:STAND-OFF" H 9600 6950 50  0001 C CNN
+F 3 "" H 9600 6950 50  0001 C CNN
+	1    9600 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -266,10 +200,6 @@ F 3 "" H 4650 4500 50  0001 C CNN
 	1    4650 4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4250 4300 4650 4300
-Wire Wire Line
-	5850 3100 5950 3100
 $Comp
 L +3.3V #PWR13
 U 1 1 5907C92A
@@ -281,8 +211,6 @@ F 3 "" H 6200 1950 50  0001 C CNN
 	1    6200 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6200 1950 6200 2100
 $Comp
 L JUMPER-SMT_3_2-NC_PASTE_SILK JP1
 U 1 1 59082286
@@ -297,12 +225,12 @@ $EndComp
 $Comp
 L Mounting_Hole MK2
 U 1 1 59084A42
-P 10400 6950
-F 0 "MK2" H 10400 7150 50  0000 C CNN
-F 1 "Mounting_Hole" H 10400 7075 50  0000 C CNN
-F 2 "SparkFun-Hardware:STAND-OFF" H 10400 6950 50  0001 C CNN
-F 3 "" H 10400 6950 50  0001 C CNN
-	1    10400 6950
+P 10200 6950
+F 0 "MK2" H 10200 7150 50  0000 C CNN
+F 1 "Mounting_Hole" H 10200 7075 50  0000 C CNN
+F 2 "SparkFun-Hardware:STAND-OFF" H 10200 6950 50  0001 C CNN
+F 3 "" H 10200 6950 50  0001 C CNN
+	1    10200 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -330,31 +258,25 @@ $EndComp
 $Comp
 L Fiducial F2
 U 1 1 59092D95
-P 10400 7300
-F 0 "F2" H 10400 7500 60  0000 C CNN
-F 1 "Fiducial" H 10400 7450 60  0000 C CNN
-F 2 "Aesthetics:FIDUCIAL-MICRO" H 10400 7300 60  0001 C CNN
-F 3 "" H 10400 7300 60  0001 C CNN
-	1    10400 7300
+P 10250 7250
+F 0 "F2" H 10250 7450 60  0000 C CNN
+F 1 "Fiducial" H 10250 7400 60  0000 C CNN
+F 2 "Aesthetics:FIDUCIAL-MICRO" H 10250 7250 60  0001 C CNN
+F 3 "" H 10250 7250 60  0001 C CNN
+	1    10250 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Fiducial F1
 U 1 1 59092EBB
-P 9800 7300
-F 0 "F1" H 9800 7500 60  0000 C CNN
-F 1 "Fiducial" H 9800 7450 60  0000 C CNN
-F 2 "Aesthetics:FIDUCIAL-MICRO" H 9800 7300 60  0001 C CNN
-F 3 "" H 9800 7300 60  0001 C CNN
-	1    9800 7300
+P 9600 7250
+F 0 "F1" H 9600 7450 60  0000 C CNN
+F 1 "Fiducial" H 9600 7400 60  0000 C CNN
+F 2 "Aesthetics:FIDUCIAL-MICRO" H 9600 7250 60  0001 C CNN
+F 3 "" H 9600 7250 60  0001 C CNN
+	1    9600 7250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 3000 4950 3000
-Connection ~ 4950 3100
-Wire Wire Line
-	4950 2900 5050 2900
-Connection ~ 4950 2800
 $Comp
 L +3.3V #PWR1
 U 1 1 591D2B23
@@ -377,10 +299,6 @@ F 3 "" H 4150 3200 50  0001 C CNN
 	1    4150 3200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 3100 4150 3200
-Wire Wire Line
-	4150 2650 4150 2800
 $Comp
 L I2C_STANDARD J4
 U 1 1 5A0B2D46
@@ -516,23 +434,117 @@ $EndComp
 $Comp
 L Fiducial F3
 U 1 1 5A0F19BD
-P 10000 7300
-F 0 "F3" H 10000 7500 60  0000 C CNN
-F 1 "Fiducial" H 10000 7450 60  0000 C CNN
-F 2 "Aesthetics:FIDUCIAL-MICRO" H 10000 7300 60  0001 C CNN
-F 3 "" H 10000 7300 60  0001 C CNN
-	1    10000 7300
+P 9800 7250
+F 0 "F3" H 9800 7450 60  0000 C CNN
+F 1 "Fiducial" H 9800 7400 60  0000 C CNN
+F 2 "Aesthetics:FIDUCIAL-MICRO" H 9800 7250 60  0001 C CNN
+F 3 "" H 9800 7250 60  0001 C CNN
+	1    9800 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Fiducial F4
 U 1 1 5A0F1A01
-P 10200 7300
-F 0 "F4" H 10200 7500 60  0000 C CNN
-F 1 "Fiducial" H 10200 7450 60  0000 C CNN
-F 2 "Aesthetics:FIDUCIAL-MICRO" H 10200 7300 60  0001 C CNN
-F 3 "" H 10200 7300 60  0001 C CNN
-	1    10200 7300
+P 10000 7250
+F 0 "F4" H 10000 7450 60  0000 C CNN
+F 1 "Fiducial" H 10000 7400 60  0000 C CNN
+F 2 "Aesthetics:FIDUCIAL-MICRO" H 10000 7250 60  0001 C CNN
+F 3 "" H 10000 7250 60  0001 C CNN
+	1    10000 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5050 2800 4950 2800
+Wire Wire Line
+	4950 2700 4950 2900
+Wire Wire Line
+	4450 2650 4450 2800
+Wire Wire Line
+	4650 4300 4650 4000
+Wire Wire Line
+	5600 4300 5850 4300
+Wire Wire Line
+	5850 4300 5850 4000
+Wire Wire Line
+	4300 5250 4650 5250
+Wire Wire Line
+	4650 5250 4650 4950
+Wire Wire Line
+	5050 3100 4950 3100
+Wire Wire Line
+	4950 3000 4950 3200
+Wire Wire Line
+	4450 3100 4450 3200
+Wire Wire Line
+	4250 4400 4650 4400
+Wire Wire Line
+	4650 4400 4650 4500
+Wire Wire Line
+	5600 4400 5850 4400
+Wire Wire Line
+	5850 4400 5850 4500
+Wire Wire Line
+	4300 5350 4650 5350
+Wire Wire Line
+	4650 5350 4650 5450
+Wire Wire Line
+	6450 2250 6450 2300
+Wire Wire Line
+	6450 2250 6350 2250
+Wire Wire Line
+	5950 2250 5950 2300
+Wire Wire Line
+	5950 2250 6050 2250
+Wire Wire Line
+	5850 2800 6650 2800
+Wire Wire Line
+	5950 2700 5950 2800
+Connection ~ 5950 2800
+Wire Wire Line
+	4250 4100 4350 4100
+Wire Wire Line
+	5600 4100 5650 4100
+Wire Wire Line
+	4300 5050 4450 5050
+Wire Wire Line
+	5850 2900 6650 2900
+Wire Wire Line
+	6450 2700 6450 2900
+Connection ~ 6450 2900
+Wire Wire Line
+	4250 4200 4350 4200
+Wire Wire Line
+	5600 4200 5650 4200
+Wire Wire Line
+	4300 5150 4450 5150
+Wire Wire Line
+	5700 5100 5900 5100
+Wire Wire Line
+	4250 4300 4650 4300
+Wire Wire Line
+	5850 3100 5950 3100
+Wire Wire Line
+	6200 1950 6200 2100
+Wire Wire Line
+	5050 3000 4950 3000
+Connection ~ 4950 3100
+Wire Wire Line
+	4950 2900 5050 2900
+Connection ~ 4950 2800
+Wire Wire Line
+	4150 3100 4150 3200
+Wire Wire Line
+	4150 2650 4150 2800
+Wire Notes Line
+	500  3500 10550 3500
+Wire Notes Line
+	10550 3500 10550 3450
+Text Notes 4950 1500 0    60   ~ 0
+Distance Sensor
+Text Notes 4650 3650 0    60   ~ 0
+I2C Connections
+Text Notes 6500 1800 0    60   ~ 0
+Jumper connects the I2C pullup resistors.\nDisconnect to use your own resistors.
+Text Notes 5050 3450 0    60   ~ 0
+I2C Address: 0X4C
 $EndSCHEMATC

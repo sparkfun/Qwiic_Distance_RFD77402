@@ -1,18 +1,15 @@
-1) Do any parts have unnecessary values (Eagle has autoset the package as the value)? [YES]
-comment: kicad issues
+1) Are the part libraries consistent with eagle github repo? [YES]
+comment: Kicad, but yes
 
-2) Is the bottom left corner board dimensions at 0,0? [NO]
-comment: kicad
+2) Do all VCC connections use the VCC symbol (oriented upward)? [YES]
+comment: 3.3v
 
-3) Is the board dimension outline correct thickness? (0.008 inch) [NO]
-comment: .15 mm; kicad
+3) Is the bottom left corner board dimensions at 0,0? [YES]
+comment: frame at 0,0
 
-4) Are measurements included for outer dimension and standoffs (Eagle layer 47)? [YES]
-comment: f.fab layer
+4) Is the board dimension outline correct thickness? (0.008 inch) [NO]
+comment: .0059 (leaving as is, kicad)
 
-5) Is the CC/Design By included in tDocu? [NO]
-comment: no kicad package
-
-6) Is all text at least 0.032 inch, 15 percent radio, and vector? [NO]
-comment: no ratio in kicad
+5) If it is a 3-way jumper, is there a label on each side of the jumper? [NO]
+comment: i2c pu
 

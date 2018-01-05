@@ -2,11 +2,11 @@
 <export version="D">
   <design>
     <source>C:/Github/Qwiic_Distance_Sensor/Hardware/RFD77402_ToF_Sensor.sch</source>
-    <date>11/14/2017 11:42:09 AM</date>
+    <date>1/4/2018 10:33:45 AM</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>ZOPT220x UV Sensor Breakout.sch</title>
+        <title>RFD77402 TOF Sensor Breakout.sch</title>
         <company/>
         <rev/>
         <date>22 MAR 2017</date>
@@ -19,20 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="U3">
-      <value>SPARKX-LOGO4</value>
-      <footprint>SparkX:SPARKX-MEDIUM</footprint>
-      <libsource lib="SparkX" part="SPARKX_SPARKX-LOGO4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58D2A8F5</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>SPARKX-LOGO4</value>
-      <footprint>SparkX:SPARKX-MEDIUM</footprint>
-      <libsource lib="SparkX" part="SPARKX_SPARKX-LOGO4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58D2A9BD</tstamp>
-    </comp>
     <comp ref="MK1">
       <value>Mounting_Hole</value>
       <footprint>SparkFun-Hardware:STAND-OFF</footprint>
@@ -70,21 +56,21 @@
     </comp>
     <comp ref="F2">
       <value>Fiducial</value>
-      <footprint>SparkFun-KiCad-Aesthetics:FIDUCIAL-1X2</footprint>
+      <footprint>Aesthetics:FIDUCIAL-MICRO</footprint>
       <libsource lib="SparkX" part="Fiducial"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59092D95</tstamp>
     </comp>
     <comp ref="F1">
       <value>Fiducial</value>
-      <footprint>SparkFun-KiCad-Aesthetics:FIDUCIAL-1X2</footprint>
+      <footprint>Aesthetics:FIDUCIAL-MICRO</footprint>
       <libsource lib="SparkX" part="Fiducial"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59092EBB</tstamp>
     </comp>
     <comp ref="J4">
       <value>I2C_STANDARD</value>
-      <footprint>1X04</footprint>
+      <footprint>Connectors:1X04</footprint>
       <fields>
         <field name="Field4">XXX-00000</field>
       </fields>
@@ -94,7 +80,7 @@
     </comp>
     <comp ref="J3">
       <value>CONN_01</value>
-      <footprint>1X01</footprint>
+      <footprint>Connectors:1X01</footprint>
       <fields>
         <field name="Field4">XXX-00000</field>
       </fields>
@@ -104,7 +90,7 @@
     </comp>
     <comp ref="C2">
       <value>4.7UF0603</value>
-      <footprint>0603</footprint>
+      <footprint>Capacitors:0603</footprint>
       <fields>
         <field name="Field4">CAP-08280</field>
       </fields>
@@ -114,7 +100,7 @@
     </comp>
     <comp ref="C1">
       <value>0.1UF-0603-25V-_+80_-20%_</value>
-      <footprint>0603</footprint>
+      <footprint>Capacitors:0603</footprint>
       <fields>
         <field name="Field4">CAP-00810</field>
       </fields>
@@ -124,7 +110,7 @@
     </comp>
     <comp ref="R2">
       <value>4.7KOHM-0603-1_10W-1%</value>
-      <footprint>0603</footprint>
+      <footprint>Resistors:0603</footprint>
       <fields>
         <field name="Field4">RES-07857</field>
       </fields>
@@ -134,7 +120,7 @@
     </comp>
     <comp ref="R1">
       <value>4.7KOHM-0603-1_10W-1%</value>
-      <footprint>0603</footprint>
+      <footprint>Resistors:0603</footprint>
       <fields>
         <field name="Field4">RES-07857</field>
       </fields>
@@ -154,7 +140,7 @@
     </comp>
     <comp ref="J1">
       <value>QWIIC_CONNECTORJS-1MM</value>
-      <footprint>1X04_1MM_RA</footprint>
+      <footprint>Connectors:1X04_1MM_RA</footprint>
       <fields>
         <field name="Field4">CONN-13694</field>
       </fields>
@@ -164,13 +150,47 @@
     </comp>
     <comp ref="J2">
       <value>QWIIC_CONNECTORJS-1MM</value>
-      <footprint>1X04_1MM_RA</footprint>
+      <footprint>Connectors:1X04_1MM_RA</footprint>
       <fields>
         <field name="Field4">CONN-13694</field>
       </fields>
       <libsource lib="SparkFun-Connectors" part="QWIIC_CONNECTORJS-1MM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A0B5168</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>SFE_LOGO_NAME_FLAME.1_INCH</value>
+      <footprint>Aesthetics:SFE_LOGO_NAME_FLAME_.1</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Aesthetics" part="SFE_LOGO_NAME_FLAME.1_INCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0C7E91</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>SFE_LOGO_NAME_FLAME.1_INCH</value>
+      <footprint>Aesthetics:SFE_LOGO_NAME_FLAME_.1</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Aesthetics" part="SFE_LOGO_NAME_FLAME.1_INCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0C8030</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>Fiducial</value>
+      <footprint>Aesthetics:FIDUCIAL-MICRO</footprint>
+      <libsource lib="SparkX" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F19BD</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>Fiducial</value>
+      <footprint>Aesthetics:FIDUCIAL-MICRO</footprint>
+      <libsource lib="SparkX" part="Fiducial"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F1A01</tstamp>
     </comp>
   </components>
   <libparts>
@@ -337,6 +357,27 @@
         <pin num="12" name="GND" type="BiDi"/>
       </pins>
     </libpart>
+    <libpart lib="SparkFun-Aesthetics" part="SFE_LOGO_NAME_FLAME.1_INCH">
+      <description>SparkFun Font Logo w/ Flame This is the SparkFun full logo. The logo on the schematic will always be the same size; the package variant is the height of the flame part of the logo. Default layer for the logo on the board is tSilk. </description>
+      <footprints>
+        <fp>*SFE_LOGO_NAME_FLAME_.1*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.2*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.3*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.4*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.5*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.6*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.7*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.8*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_.9*</fp>
+        <fp>*SFE_LOGO_NAME_FLAME_1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">SFE_LOGO_NAME_FLAME.1_INCH</field>
+        <field name="Footprint">SFE_LOGO_NAME_FLAME_.1</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+    </libpart>
     <libpart lib="RFD77402_ToF_Sensor-cache" part="SPARKFUN-AESTHETICS_OSHW-LOGOS">
       <footprints>
         <fp>*SPARKFUN-AESTHETICS_OSHW-LOGO-S*</fp>
@@ -347,23 +388,19 @@
         <field name="Footprint">SPARKFUN-AESTHETICS_OSHW-LOGO-S</field>
       </fields>
     </libpart>
-    <libpart lib="SparkX" part="SPARKX_SPARKX-LOGO4">
-      <footprints>
-        <fp>*SPARKX_SPARKX-MEDIUM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">M</field>
-        <field name="Value">SPARKX_SPARKX-LOGO4</field>
-        <field name="Footprint">SPARKX_SPARKX-MEDIUM</field>
-      </fields>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="SparkFun-Connectors">
-      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Connectors.lib</uri>
+    <library logical="SparkFun-Aesthetics">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Aesthetics.lib</uri>
     </library>
     <library logical="SparkFun-Capacitors">
       <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="SparkFun-IC-Special-Function">
+      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-IC-Special-Function.lib</uri>
     </library>
     <library logical="SparkFun-Resistors">
       <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-Resistors.lib</uri>
@@ -374,55 +411,52 @@
     <library logical="RFD77402_ToF_Sensor-cache">
       <uri>C:\Github\Qwiic_Distance_Sensor\Hardware\RFD77402_ToF_Sensor-cache.lib</uri>
     </library>
-    <library logical="SparkFun-IC-Special-Function">
-      <uri>C:\Github\SparkFun-KiCad-Libraries\Libraries\SparkFun-IC-Special-Function.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(JP1-Pad1)">
-      <node ref="JP1" pin="1"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="2" name="+3V3">
-      <node ref="J2" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="U1" pin="10"/>
-      <node ref="U1" pin="8"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="JP1" pin="2"/>
-      <node ref="J4" pin="2"/>
-    </net>
-    <net code="3" name="GND">
-      <node ref="J4" pin="1"/>
+    <net code="1" name="GND">
       <node ref="J1" pin="1"/>
       <node ref="U1" pin="12"/>
       <node ref="U1" pin="9"/>
-      <node ref="J2" pin="1"/>
       <node ref="C1" pin="2"/>
       <node ref="C2" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="1"/>
     </net>
-    <net code="4" name="Net-(JP1-Pad3)">
+    <net code="2" name="+3V3">
+      <node ref="C1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="SCL">
+      <node ref="U1" pin="5"/>
+      <node ref="J4" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="SDA">
+      <node ref="J2" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="5" name="~INT">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(JP1-Pad3)">
       <node ref="R1" pin="1"/>
       <node ref="JP1" pin="3"/>
     </net>
-    <net code="5" name="SCL">
-      <node ref="J2" pin="4"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U1" pin="5"/>
-      <node ref="J1" pin="4"/>
-      <node ref="J4" pin="4"/>
-    </net>
-    <net code="6" name="~INT">
-      <node ref="U1" pin="1"/>
-      <node ref="J3" pin="1"/>
-    </net>
-    <net code="7" name="SDA">
-      <node ref="J4" pin="3"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J1" pin="3"/>
-      <node ref="U1" pin="6"/>
-      <node ref="R2" pin="2"/>
+    <net code="7" name="Net-(JP1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="JP1" pin="1"/>
     </net>
   </nets>
 </export>

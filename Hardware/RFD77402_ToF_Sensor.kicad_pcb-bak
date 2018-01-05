@@ -1048,7 +1048,7 @@
     (arrow2a (pts (xy 137.16 86.614) (xy 138.286504 87.200421)))
     (arrow2b (pts (xy 137.16 86.614) (xy 138.286504 86.027579)))
   )
-  (gr_text v01 (at 160.528 115.57) (layer B.Cu)
+  (gr_text v02 (at 160.528 115.57) (layer B.Cu)
     (effects (font (size 1.27 1.27) (thickness 0.254)) (justify mirror))
   )
   (gr_text "RFD77402 ToF Sensor" (at 149.86 98.298) (layer B.SilkS)

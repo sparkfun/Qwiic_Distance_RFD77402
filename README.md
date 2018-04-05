@@ -7,9 +7,15 @@ Qwiic Distance Sensor - RFD77402
 
 The Qwiic Distance Sensor uses the RFD77402 sensor utilizing VCSEL or vertical-cavity surface-emitting laser and a 3 pixel camera to measure the amount of time to a target. This gives you amazing millimeter prescision with low-cost and low power.
 
-Library is available [here](https://github.com/sparkfun/SparkFun_RFD77402_Arduino_Library).
+Documentation
+--------------
+* **[Library](https://github.com/sparkfun/SparkFun_RFD77402_Arduino_Library)** - Arduino library for the RFD77402 Breakout Board.
+* **[Qwiic system](http://www.sparkfun.com/qwiic)** - The Qwiic system enables fast and solderless connection between popular platforms and various sensors and actuators.
 
-The [Qwiic system](http://www.sparkfun.com/qwiic) enables fast and solderless connection between popular platforms and various sensors and actuators. You can read more about the Qwiic system [here](http://www.sparkfun.com/qwiic).
+Product Versions
+----------------
+* [SEN-14539](https://www.sparkfun.com/products/14539)
+* [SPX-14343](https://www.sparkfun.com/products/14343)
 
 License Information
 -------------------

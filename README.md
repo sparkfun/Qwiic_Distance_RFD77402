@@ -10,6 +10,7 @@ The Qwiic Distance Sensor uses the RFD77402 sensor utilizing VCSEL or vertical-c
 Documentation
 --------------
 * **[Library](https://github.com/sparkfun/SparkFun_RFD77402_Arduino_Library)** - Arduino library for the RFD77402 Breakout Board.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-distance-sensor-rfd77402-hookup-guide)** - Basic hookup guide for the RFD77402 Breakout Board.
 * **[Qwiic system](http://www.sparkfun.com/qwiic)** - The Qwiic system enables fast and solderless connection between popular platforms and various sensors and actuators.
 
 Product Versions
